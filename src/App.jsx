@@ -12,6 +12,7 @@ import AdminHotelForm from "./pages/admin/AdminHotelForm";
 import AdminEnquiries from "./pages/admin/AdminEnquiries";
 import AdminEnquiryDetails from "./pages/admin/AdminEnquiryDetails";
 import AdminWebsiteContent from "./pages/admin/AdminWebsiteContent";
+import AdminSettings from "./pages/admin/AdminSettings";
 
 const NotFound = () => <h1>404 - Page Not Found</h1>;
 
@@ -37,6 +38,9 @@ function App() {
         <Route path="/admin/enquiries" element={<AdminEnquiries />}/>
         <Route path="/admin/enquiries/:id" element={<AdminEnquiryDetails />}/>
         <Route path="/admin/content" element={<AdminWebsiteContent />}/>
+        <Route path="/admin/settings" element={<AdminSettings />} />
+
+
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
