@@ -35,6 +35,7 @@ function Footer() {
                             <Link to="/" className="transition hover:text-[#D7B46B]">Discover</Link>
                             <Link to="/hotels" className="transition hover:text-[#D7B46B]">Hotels</Link>
                             <Link to="/#experiences" className="transition hover:text-[#D7B46B]">Experiences</Link>
+                            <Link to ="/admin/dashboard" className="transition hover:text-[#D7B46B]">Admin</Link>
                         </div>
                     </div>
 
