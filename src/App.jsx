@@ -14,11 +14,13 @@ import AdminEnquiryDetails from "./pages/admin/AdminEnquiryDetails";
 import AdminWebsiteContent from "./pages/admin/AdminWebsiteContent";
 import AdminSettings from "./pages/admin/AdminSettings";
 
+import ScrollToTop from "./components/ScrollToTop";
 const NotFound = () => <h1>404 - Page Not Found</h1>;
 
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/hotels" element={<Hotels />} />

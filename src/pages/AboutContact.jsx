@@ -173,7 +173,7 @@ function AboutContact() {
             </div>
           </div>
 
-          <div className="bg-white p-7 text-[#182333] md:p-10">
+          <div id="contact" className="bg-white p-7 text-[#182333] md:p-10">
             {submitted ? (
               <div className="py-12 text-center">
                 <span className="text-3xl text-[#B18A45]">✧</span>

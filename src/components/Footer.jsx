@@ -44,9 +44,9 @@ function Footer() {
                             ABOUT
                         </h4>
                         <div className="flex flex-col gap-4 text-xs text-gray-300">
-                            <Link to="/about-contact" className="transition hover:text-[#D7B46B]">Our Story</Link>
-                            <Link to="/about-contact" className="transition hover:text-[#D7B46B]">Contact Us</Link>
-                            <Link to="/about-contact" className="transition hover:text-[#D7B46B]">Get in Touch</Link>
+                            <Link to="/about-contact#story" className="transition hover:text-[#D7B46B]">Our Story</Link>
+                            <Link to="/about-contact#contact" className="transition hover:text-[#D7B46B]">Contact Us</Link>
+                            <Link to="/about-contact#contact" className="transition hover:text-[#D7B46B]">Get in Touch</Link>
                         </div>
                     </div>
 
